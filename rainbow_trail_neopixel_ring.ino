@@ -1,4 +1,4 @@
-//Neopixle ring rainbow cycle
+//Neopixel ring rainbow cycle
 
 #include <Adafruit_NeoPixel.h>
 #ifdef __AVR__
@@ -53,3 +53,5 @@ uint32_t Wheel(byte WheelPos) {
   WheelPos -= 170;
   return strip.Color(WheelPos * 3, 255 - WheelPos * 3, 0);
 }
+
+//Best wishes to you all
